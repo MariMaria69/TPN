@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*----------PLUS----------*/
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +11,17 @@
     font-family: Arial, sans-serif;
   }
 
+/*----------PRODUTOS----------*/
   #imgLogo{
     width: 70px;
   }
+
   .containers ul {
     display: flex;
     justify-content: space-around;
     margin: 1%;
   }
+
   .containers ul > li{
     display: block;
     padding: 30px;
@@ -31,8 +35,7 @@
     margin: 1%;
     /*border: 1px solid black;*/
   }
-   
- 
+
 .containers ul > li > img{
   width: 200px;
   border-radius: 10%;
@@ -51,6 +54,7 @@
     transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
 }
 
+/*----------CABEÇALHO----------*/
 .header {
   background-color: #F096BF;
   color: #fff;
@@ -112,7 +116,7 @@
 }
 
 
-/* Estilos da barra de pesquisa */
+/*----------PESQUISA----------*/
 .barra-pesquisa {
   display: flex;
   justify-content: center;
@@ -143,22 +147,23 @@
   background-color: #c587da;
 }
 
+/*----------MEDIA----------*/ 
 @media only screen and (max-width: 768px) {
 
-
+/*----------MEDIA PRODUTOS----------*/ 
   .containers ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 1%;
   }
+
   .containers ul > li{
     background: #EFD7DF;
     padding: 30px;
     text-align: center;
     width: 250px;
 }
-  
   
 .containers ul > li > img{
   width: 200px;
